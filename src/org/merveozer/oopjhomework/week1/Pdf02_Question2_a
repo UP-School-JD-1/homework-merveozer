@@ -1,0 +1,14 @@
+Ýsimlendirme Problemleri:
+
+	1) Ýsimlendirme problemlerinden ilki "f" isimli metot ile ilgilidir. Verilen isimler açýklayýcý olmalýdýr. 
+	Bu metot "x" ve "y" adýnda iki integer parametre alýr. Ve "x^y" sonucunu döndürür. Ýþlevine uygun bir
+	isimlendirme yapýlmalýydý.
+	
+	2) Metot içinde kullanýlan deðiþken isimlerinin de anlamlý olmasý gerekmektedir.
+	x ve y tek baþýna pek de anlamlý deðil.
+	
+	3) Java'da "_" kullanýmý pek yaygýn deðildir. Kullanýlacaksa bile sabitlerde kullanýlýr. "base_var", "exp_var"
+	"base_var_of_pow_exp_var" deðiþkenleri sabit gibi görünmemektedir. Belki f metotunun içindeki x, y deðiþ_
+	kenlerinin isimlendirilmesinde kullanýlabilirdi.
+	
+	
