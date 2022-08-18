@@ -13,6 +13,7 @@ public class TestRead {
 		book1.page = 380;
 		book1.isHardCover = true;
 		book1.currentPage = 153;
+		book1.bookType = BookType.Fiction;
 		
 		Reader reader = new Reader();
 		reader.name = "Alp Can";

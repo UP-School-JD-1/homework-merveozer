@@ -7,6 +7,7 @@ public class Book {
 	String type;
 	boolean isHardCover;
 	int currentPage;
+	BookType bookType;
 	Author author;
 	
 	public String getTitle() {
@@ -44,6 +45,12 @@ public class Book {
 	}
 	public void setAuthor(Author author) {
 		this.author = author;
+	}
+	public BookType getBookType() {
+		return bookType;
+	}
+	public void setBookType(BookType bookType) {
+		this.bookType = bookType;
 	}
 	
 }
