@@ -1,4 +1,4 @@
-package org.merveozer.oopjhomework.section2.abstractClasses.Q1;
+package org.merveozer.oopjhomework.Object_Oriented_and_Functional_Programming_with_Java.Pdf01_Cok_Sekillilik.Q1;
 
 import java.util.Date;
 
@@ -9,23 +9,26 @@ public class RegistrationOffice {
 		Date date = new Date();
 		Student s = null;
 		
-		int i = (int) (5 * Math.random());
+		int i = (int) (6 * Math.random());
 		
 		switch (i) {
 		case 0:
-			s = new VocationalStudent(2, "VocationalStudent-Merve", 2014, date, "CP");
+			s = new Student(1, "Student-Ali", 2015, date, "Psy");
 			break;
 		case 1:
-			s = new GraduateStudent(3, "Graduate-Fatih", 2015, date , "EE", "asdf", "asdf");
+			s = new VocationalStudent(2, "VocationalStudent-Merve", 2014, date, "CP");
 			break;
 		case 2:
-			s = new UndergraduateStudent(4, "Undergraduate-Eda", 2015, date , "EE", "asdf");
+			s = new GraduateStudent(3, "Graduate-Hasan", 2015, date , "EE", "asdf", "asdf");
 			break;
 		case 3:
-			s = new MasterStudent(5, "MasterStudent-Alp", 2018, date, "Transistors", "Akýn", "EE");
+			s = new UndergraduateStudent(4, "Undergraduate-Eda", 2015, date , "EE", "asdf");
 			break;
 		case 4:
-			s = new PhdStudent(6, "PhdStudent-Barýþ", 2012, date, "Transistors", "Akýn", "CENG");
+			s = new MasterStudent(5, "MasterStudent-Alp", 2018, date, "Transistors", "Akýn", "EE");
+			break;
+		case 5:
+			s = new PhdStudent(6, "PhdStudent-Salih", 2012, date, "Transistors", "Akýn", "CENG");
 			break;
 		}
 		

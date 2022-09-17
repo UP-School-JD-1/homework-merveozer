@@ -1,4 +1,4 @@
-package org.merveozer.oopjhomework.week8.Q2;
+package org.merveozer.oopjhomework.Introduction_to_Object_Oriented_Programming_with_Java.Pdf13_enum_Java_Apisi_ve_Siniflar.Q1;
 
 public enum BookType {
 		Fiction,

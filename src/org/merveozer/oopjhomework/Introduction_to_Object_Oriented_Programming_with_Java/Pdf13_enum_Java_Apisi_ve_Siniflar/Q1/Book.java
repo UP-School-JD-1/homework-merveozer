@@ -1,4 +1,4 @@
-package org.merveozer.oopjhomework.Introduction_to_Object_Oriented_Programming_with_Java.Pdf08_Siniflar_ve_Nesneleri.Q2;
+package org.merveozer.oopjhomework.Introduction_to_Object_Oriented_Programming_with_Java.Pdf13_enum_Java_Apisi_ve_Siniflar.Q1;
 
 public class Book {
 
@@ -7,6 +7,7 @@ public class Book {
 	String type;
 	boolean isHardCover;
 	int currentPage;
+	BookType bookType;
 	Author author;
 	
 	public String getTitle() {
@@ -45,6 +46,11 @@ public class Book {
 	public void setAuthor(Author author) {
 		this.author = author;
 	}
-
+	public BookType getBookType() {
+		return bookType;
+	}
+	public void setBookType(BookType bookType) {
+		this.bookType = bookType;
+	}
 	
 }

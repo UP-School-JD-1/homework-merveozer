@@ -1,4 +1,4 @@
-package org.merveozer.oopjhomework.section2.abstractClasses.Q1;
+package org.merveozer.oopjhomework.Object_Oriented_and_Functional_Programming_with_Java.Pdf01_Cok_Sekillilik.Q1;
 
 import java.util.Date;
 
@@ -21,11 +21,6 @@ public class GraduateStudent extends Student{
 	@Override
 	public String toString() {
 		return "GraduateStudent [advisor=" + advisor + ", thesis=" + thesis + "]";
-	}
-
-	@Override
-	public void register() {
-		System.out.println("Graduate Student is registered.");
 	}
 	
 

@@ -1,6 +1,5 @@
-package org.merveozer.oopjhomework.week8.Q3;
+package org.merveozer.oopjhomework.Introduction_to_Object_Oriented_Programming_with_Java.Pdf08_Siniflar_ve_Nesneleri.Q3;
 
-import org.merveozer.oopjhomework.week8.Q3.Point.Direction;
 
 public class PointTest {
 

@@ -1,4 +1,4 @@
-package org.merveozer.oopjhomework.week9.Q3;
+package org.merveozer.oopjhomework.Introduction_to_Object_Oriented_Programming_with_Java.Pdf09_Ileri_Sinif_ve_Nesne_Ozellikleri.Q3;
 
 public class Test {
 

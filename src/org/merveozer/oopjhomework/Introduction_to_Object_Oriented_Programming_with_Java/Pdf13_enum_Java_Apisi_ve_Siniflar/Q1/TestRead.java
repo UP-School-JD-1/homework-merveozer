@@ -1,4 +1,4 @@
-package org.merveozer.oopjhomework.Introduction_to_Object_Oriented_Programming_with_Java.Pdf08_Siniflar_ve_Nesneleri.Q2;
+package org.merveozer.oopjhomework.Introduction_to_Object_Oriented_Programming_with_Java.Pdf13_enum_Java_Apisi_ve_Siniflar.Q1;
 
 public class TestRead {
 
@@ -13,6 +13,7 @@ public class TestRead {
 		book1.page = 380;
 		book1.isHardCover = true;
 		book1.currentPage = 153;
+		book1.bookType = BookType.Fiction;
 		
 		Reader reader = new Reader();
 		reader.name = "Alp Can";

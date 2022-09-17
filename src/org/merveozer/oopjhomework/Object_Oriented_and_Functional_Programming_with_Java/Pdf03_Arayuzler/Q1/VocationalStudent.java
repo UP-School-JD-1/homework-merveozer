@@ -1,4 +1,4 @@
-package org.merveozer.oopjhomework.section2.interfaces.Q1;
+package org.merveozer.oopjhomework.Object_Oriented_and_Functional_Programming_with_Java.Pdf03_Arayuzler.Q1;
 
 import java.util.Date;
 

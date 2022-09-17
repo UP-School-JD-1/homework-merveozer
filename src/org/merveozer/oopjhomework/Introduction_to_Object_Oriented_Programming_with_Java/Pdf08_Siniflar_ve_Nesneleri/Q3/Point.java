@@ -1,11 +1,7 @@
-package org.merveozer.oopjhomework.week8.Q3;
+package org.merveozer.oopjhomework.Introduction_to_Object_Oriented_Programming_with_Java.Pdf08_Siniflar_ve_Nesneleri.Q3;
 
 public class Point {
-
-	enum Direction {
-		X, Y
-	}
-
+	
 	private int x;
 	private int y;
 

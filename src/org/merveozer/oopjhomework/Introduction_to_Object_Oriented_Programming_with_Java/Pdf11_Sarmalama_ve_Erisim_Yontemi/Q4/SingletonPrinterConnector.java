@@ -1,4 +1,4 @@
-package org.merveozer.oopjhomework.week11.Q4;
+package org.merveozer.oopjhomework.Introduction_to_Object_Oriented_Programming_with_Java.Pdf11_Sarmalama_ve_Erisim_Yontemi.Q4;
 
 public class SingletonPrinterConnector {
 	

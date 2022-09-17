@@ -1,4 +1,4 @@
-package org.merveozer.oopjhomework.section2.polymorphism.Q1;
+package org.merveozer.oopjhomework.Object_Oriented_and_Functional_Programming_with_Java.Pdf02_Soyut_Siniflar.Q1;
 
 import java.util.Date;
 
@@ -9,7 +9,7 @@ public class Test {
 		RegistrationOffice ro = new RegistrationOffice();
 		Date date = new Date();
 		
-		Student student = ro.getAStudent();		
+		Student student = ro.getAStudent();		//Soyut sýnýflar alt sýnýflarýnýn nesnelerini tutabilir
 		System.out.println("Get a random student: " + student.getName());
 		
 		

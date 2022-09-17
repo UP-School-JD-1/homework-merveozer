@@ -1,4 +1,4 @@
-package org.merveozer.oopjhomework.week12.Q1;
+package org.merveozer.oopjhomework.Introduction_to_Object_Oriented_Programming_with_Java.Pdf12_Tekrar_Kullanim_ve_Miras.Q1;
 
 public abstract class Shape {
 	protected String name;

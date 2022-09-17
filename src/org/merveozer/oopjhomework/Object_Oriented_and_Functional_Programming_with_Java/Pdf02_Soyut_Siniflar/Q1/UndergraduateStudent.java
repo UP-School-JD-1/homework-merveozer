@@ -1,4 +1,4 @@
-package org.merveozer.oopjhomework.section2.polymorphism.Q1;
+package org.merveozer.oopjhomework.Object_Oriented_and_Functional_Programming_with_Java.Pdf02_Soyut_Siniflar.Q1;
 
 import java.util.Date;
 
@@ -19,6 +19,11 @@ public class UndergraduateStudent extends Student {
 	@Override
 	public String toString() {
 		return "UndergraduateStudent [minor=" + minor + "]";
+	}
+
+	@Override
+	public void register() {
+		System.out.println("Undergraduate Student is registered.");
 	}
 	
 }
