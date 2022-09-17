@@ -18,6 +18,7 @@ public class Director extends Manager {
 	public void manage(){
 		System.out.println("Director manages whole company!");
 		makeStrategicPlan();
+		
 	}
 	
 	public void makeStrategicPlan(){
