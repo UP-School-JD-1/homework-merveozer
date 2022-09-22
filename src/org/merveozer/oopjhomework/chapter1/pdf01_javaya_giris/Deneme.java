@@ -1,4 +1,4 @@
-package org.merveozer.oopjhomework.Introduction_to_Object_Oriented_Programming_with_Java.Pdf01_Javaya_Giris;
+package org.merveozer.oopjhomework.chapter1.pdf01_javaya_giris;
 
 public class Deneme {
 

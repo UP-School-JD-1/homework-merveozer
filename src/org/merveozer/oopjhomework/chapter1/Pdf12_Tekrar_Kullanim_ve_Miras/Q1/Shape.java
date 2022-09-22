@@ -1,4 +1,4 @@
-package org.merveozer.oopjhomework.Introduction_to_Object_Oriented_Programming_with_Java.Pdf12_Tekrar_Kullanim_ve_Miras.Q1;
+package org.merveozer.oopjhomework.chapter1.pdf12_tekrar_kullanim_ve_miras.Q1;
 
 public abstract class Shape {
 	protected String name;
@@ -18,5 +18,5 @@ public abstract class Shape {
 
 	abstract double calculateArea();
 
-	abstract double calculateCircumference(); //abstract metotlar sadece interface þeklinde çünkü çevre ve alan hesabý her þekle özel
+	abstract double calculateCircumference(); //abstract metotlar sadece interface ï¿½eklinde ï¿½ï¿½nkï¿½ ï¿½evre ve alan hesabï¿½ her ï¿½ekle ï¿½zel
 }
