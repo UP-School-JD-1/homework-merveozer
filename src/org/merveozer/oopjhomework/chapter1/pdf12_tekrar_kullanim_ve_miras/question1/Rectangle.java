@@ -1,4 +1,4 @@
-package org.merveozer.oopjhomework.chapter1.pdf12_tekrar_kullanim_ve_miras.Q1;
+package org.merveozer.oopjhomework.chapter1.pdf12_tekrar_kullanim_ve_miras.question1;
 
 import java.util.Objects;
 

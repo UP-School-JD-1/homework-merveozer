@@ -1,26 +1,25 @@
-package org.merveozer.oopjhomework.chapter1.pdf12_tekrar_kullanim_ve_miras.Q1;
+package org.merveozer.oopjhomework.chapter1.pdf12_tekrar_kullanim_ve_miras.question1;
 
 import java.util.Objects;
 
-class Square extends Shape {
+public class Triangle extends Shape {
+
 	double side;
 
-	Square(double side,String name) {
+	Triangle(double side, String name) {
 		super(name);
 		this.side = side;
 	}
 
-
 	@Override
 	public String toString() {
-		return "Square [side=" + side + "]";
+		return "Triangle [side=" + side + "]";
 	}
 
 	@Override
 	public int hashCode() {
 		return Objects.hash(side);
 	}
-
 
 	@Override
 	public boolean equals(Object obj) {
@@ -33,20 +32,17 @@ class Square extends Shape {
 		Triangle other = (Triangle) obj;
 		return Double.doubleToLongBits(side) == Double.doubleToLongBits(other.side);
 	}
-	
-	
+
 	@Override
 	double calculateArea() {
-		return side*side;
+		return (side * side * Math.sqrt(3)) / 4;
 
 	}
 
 	@Override
 	double calculateCircumference() {
-		return 4 *side;
+		return 3 * side;
 
 	}
-	
 
 }
-
