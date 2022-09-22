@@ -1,4 +1,4 @@
-package org.merveozer.oopjhomework.chapter1.pdf09_ileri_sinif_ve_nesne_özellikleri.question2�zellikleri.Q3;
+package org.merveozer.oopjhomework.chapter1.pdf09_ileri_sinif_ve_nesne_ozellikleri.question2;
 
 import java.util.Random;
 
