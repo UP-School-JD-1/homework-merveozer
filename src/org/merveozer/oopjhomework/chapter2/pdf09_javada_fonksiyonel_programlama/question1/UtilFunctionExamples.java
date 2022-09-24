@@ -18,10 +18,10 @@ class Employee{
 public class UtilFunctionExamples {
 
 	public static void main(String... args) {
-		functionForEvenNumber();
+		function();
 	}
 	
-	public static void functionForEvenNumber () {
+	public static void function() {
 		
 		String myString = "Merve";
 		Employee e1 = new Employee();
@@ -67,11 +67,11 @@ public class UtilFunctionExamples {
 		Function<Double, Double> multiplier = num -> num * i;
 		System.out.println("Multiplier result: " + multiplier.apply(16.0));
 		
-		//divider = divider.andThen(num -> num * 3);
-		//System.out.println("And Then: " + divider.apply(30.0));
+		Function<Double, Double> divider2 = divider.andThen(num -> num * 3);
+		System.out.println("And Then: " + divider2.apply(30.0));
 		
-		divider = divider.compose(num -> num * 3);
-		System.out.println("Compose: " + divider.apply(20.0));
+		Function<Double, Double> divider3 = divider.compose(num -> num * 3);
+		System.out.println("Compose: " + divider3.apply(20.0));
 		
 		Function<Integer, Integer> identity = Function.identity();
 		System.out.println("Identity: " + identity.apply(10));

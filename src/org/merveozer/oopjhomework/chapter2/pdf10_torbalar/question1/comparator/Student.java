@@ -1,8 +1,8 @@
-package org.merveozer.oopjhomework.chapter2.pdf10_torbalar.question1.comparable;
+package org.merveozer.oopjhomework.chapter2.pdf10_torbalar.question1.comparator;
 
 import java.util.Date;
 
-public class Student implements Comparable<Student>{
+public class Student{
 	
 	private int no;
 	private String name;
@@ -75,12 +75,5 @@ public class Student implements Comparable<Student>{
 		return "Student [no=" + no + ", name=" + name + ", year=" + year + ", dob=" + dob + ", major=" + major + "]";
 	}
 
-	@Override
-	public int compareTo(Student s) {
-		if(this.year == s.year) {
-			return 0;
-		}else
-		return this.year > s.year ? 1 : -1;
-	}
 
 }
